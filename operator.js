@@ -19,4 +19,14 @@ angka++;
 let nilai =[80,75,90,60,85];
 let hasill = nilai[0] + nilai[1];
 let selisih = nilai[2] - nilai[3];
-console.log(nilai[0] + " " + hasill + " " + selisih);
+// console.log( "hasilnya " + hasill + " selisihnya " + selisih);
+
+let harga = [10000, 15000, 20000];
+let jumalah = [2, 1, 3];
+let total =
+harga[0]* jumalah[0] +
+harga[1]* jumalah[1] +
+harga[2]* jumalah[2];
+// console.log(total);
+
+
