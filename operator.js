@@ -35,3 +35,4 @@ let jumlahSiswa = 10;
 let rataRata = totalRataRata / jumlahSiswa;
 // console.log("Nilai Rata-Rata ICT Lv.X adalah " + rataRata);
 
+let nilaiRata = [80, 65, 90, 55, 75];
