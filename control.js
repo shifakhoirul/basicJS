@@ -68,13 +68,21 @@
 //     console.log(" Nilainya " + nilai + ", Grade C");
 // }
 
-let punyaTiket = true;
-let punyaUndangan = true;
-if (punyaTiket && punyaUndangan){
-    console.log("Tamu VIP");
+// let punyaTiket = true;
+// let punyaUndangan = true;
+// if (punyaTiket && punyaUndangan){
+//     console.log("Tamu VIP");
+// }
+// else if(punyaTiket || punyaUndangan){
+//     console.log("Tamu biasa");
+// }
+// else{console.log("Tidak boleh masuk");
+// }
+
+let angka = [10 , 15, 20, 25];
+if(angka[3] % 2 === 0){
+    console.log("genap");
 }
-else if(punyaTiket || punyaUndangan){
-    console.log("Tamu biasa");
-}
-else{console.log("Tidak boleh masuk");
+else{
+    console.log("ganjil");
 }
