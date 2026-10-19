@@ -38,9 +38,59 @@
 //     console.log(`i=${i} -> total=${total}`);
 // }
 
-let nama = ["Andi", "Budi", "Citra", "Doni" , "Sunghoon", "Sylvester", "Jake" , "Kyla", "Kelish", "Amy"];
-for (let i = 0; i < nama.length; i++){
-    console.log( `${i+1}.`,nama[i]);
+// let nama = ["Andi", "Budi", "Citra", "Doni" , "Sunghoon", "Sylvester", "Jake" , "Kyla", "Kelish", "Amy"];
+// for (let i = 0; i < nama.length; i++){
+//     console.log( `${i+1}.`,nama[i]);
+// }
+
+// let nilai =[80 , 65, 90, 55, 75];
+// for(let i = 0; i < nilai.length; i++ )
+//     if (nilai[i] >=90){
+//         console.log( "Nilainya" + nilai[i]+ " = SANGAT BAGUSS");
+//     }else if (nilai[i] >= 80){
+//         console.log("Nilainya" + nilai[i] +  " = BAGUSSS");
+//     }  else {
+//         console.log("Nilainya" + nilai[i] + " =  cukup");
+//     }
+
+// let nama = ["Andi" , "Budi" , "citra" , "Doni" , "Eka"];
+// let nilai = [85 , 60 , 90 , 72, 45];
+// for (let i = 0; i < nilai.length; i++)
+//     if (nilai [i] >=80){
+//     console.log(nama[i] + "-"  + nilai[i] + "= LULUS");
+// }else console.log(nama[i] + "-" + nilai[i] + " = TIDAK LULUS");
+
+// let angka = [12, 7, 20, 15, 8, 3, 14, 9];
+// for (let i = 0; i < angka.length; i++){
+// if(angka [i] % 2 === 0 && angka[i] >=10){
+//     console.log( angka [i]+ "-" +"Genap" + "-"+ ">=10" );
+//  } else if (angka [i]% 2 === 0 % angka [i] < 10){
+//    console.log (angka[i] +"-" + "Genap" + "-" + "< 10");
+//  } else if (angka [i]% 2 === 0 % angka [i] >= 10){
+//    console.log (angka[i] +"-" + "Ganjil" + "-" + "< 10");
+//  }
+//  else{
+//     console.log(angka[i] +"-"+ "Ganjil" + "-"+ "<=10");
+//  }
+// }
+
+let angka = [12, 7, 20, 15, 8, 3, 14,9];
+for (let i = 0; i < angka.length; i++){
+if(angka[i] % 2===0 && angka [i] >=10){
+    console.log(angka [i]+ "-" +"genap" + " - " + ">=10");
+ }else if(angka[i]% 2 === 0 && angka[i] < 10){
+    console.log (angka[i] + "-" + "genap" + " - " + ">=10")
+ } else if(angka[i]% 2 === 0 && angka[i] > 10){
+    console.log (angka[i] + "-" + "ganjil" + " - " + "<=10")
+ } else {
+    console.log(angka[i] +"-"  + "Ganjil" + " - " + "<=10");
+ }
 }
+ 
+    
+
+
+
+ 
 
 
