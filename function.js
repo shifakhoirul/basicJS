@@ -103,9 +103,16 @@ function pangkatbagi(a,b,c){
 // }
 
 // tampilkanUmur();
-let beratBadan =70;
-function tampilkanberatBadan(){
-    console.log (umur);
-}
 
-tampilkanberatBadan();
+//=========================//
+// let beratBadan1 =70;
+// function tampilkanberatBadan(){
+//      let beratBadan2 =80;
+//     console.log (beratBadan2);
+
+// }
+
+// tampilkanberatBadan();
+// console.log(beratBadan1);
+//=============================//
+
