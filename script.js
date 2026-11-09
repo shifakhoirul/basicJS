@@ -7,7 +7,7 @@ const siswa1 = {
         kota: "Badui"
     },
     nomorHP:628976541
-
+ 
 };
 
 const siswa2 = {
