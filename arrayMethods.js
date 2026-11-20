@@ -53,25 +53,25 @@
 //  });
 //  console.log(arrayAngkaGanjil);
 
-// const warTicket = [
-//     { nama : "konser" , jumlah : 300 , dipesan : 200},
-//     { nama : "seminar" , jumlah : 100 , dipesan : 90},
-//     { nama : "Workshop" , jumlah : 80 , dipesan : 80},
-// ];
-// const sisaTicket = warTicket.filter ((Ticket)=> {
-// return Ticket.jumlah - Ticket.dipesan >= 30
-// })
-// console.log (sisaTicket);
+const warTicket = [
+    { nama : "konser" , jumlah : 300 , dipesan : 200},
+    { nama : "seminar" , jumlah : 100 , dipesan : 90},
+    { nama : "Workshop" , jumlah : 80 , dipesan : 80},
+];
+const sisaTicket = warTicket.filter ((Ticket)=> {
+return Ticket.jumlah - Ticket.dipesan >= 30
+})
+console.log (sisaTicket);
  
-// const Habis = warTicket.find ((Ticket)=> {
-//     return Ticket.jumlah - Ticket.dipesan === 0
-// });
-// console.log(Habis);
+const Habis = warTicket.find ((Ticket)=> {
+    return Ticket.jumlah - Ticket.dipesan === 0
+});
+console.log(Habis);
 
-// const sisaTicket3 = warTicket.filter ((Ticket)=> {
-//     return Ticket.jumlah - Ticket.dipesan >= 30
-// })
-// console.log(sisaTicket3);
+const sisaTicket3 = warTicket.filter ((Ticket)=> {
+    return Ticket.jumlah - Ticket.dipesan >= 30
+})
+console.log(sisaTicket3);
 
 // const BukanKonser = warTicket.find ((Ticket)=> 
 //  Ticket.jumlah - Ticket.dipesan !== 0 && Ticket.nama !== "konser"
@@ -131,11 +131,11 @@
 //     return  Anggota.nilai >= 80 && Anggota.kehadiran >= 80;
 //  });
 
-//  anggotaLolos.forEach((Anggota)=>{
-//     console.log(Anggota.nama);
-//  });
-//  console.log("");
-//  console.log(`jumlah anggota yang lolos : ${anggotaLolos.length}`);
+ anggotaLolos.forEach((Anggota)=>{
+    console.log(Anggota.nama);
+ });
+ console.log("");
+ console.log(`jumlah anggota yang lolos : ${anggotaLolos.length}`);
 //========================================//
 
 const inventaris = [

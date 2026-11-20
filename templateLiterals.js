@@ -48,10 +48,10 @@
 //      Jumlah : ${totalBelanja.Jumlahpembelian}
 //      Total harga:${total} `)
 
-const orang ={
-    nama : "Rina",
-    umur: 16,
-};
+// const orang ={
+//     nama : "Rina",
+//     umur: 16,
+// };
 let kategori;
 if (orang.umur <13 ){
     kategori = "anak-anak";
@@ -59,7 +59,48 @@ if (orang.umur <13 ){
     kategori = "Remaja";
 }else {kategori = "Dewasa"};
 console.log(`nama : ${orang.nama}
-    umur : ${orang.umur}
-    kategori : ${kategori}`);
+             umur : ${orang.umur}
+            kategori : ${kategori}`);
 
+// const siswa = [
+//     { nama: "Andi", email: "andi@gmail.com", umur: 17 },
+//     { nama: "Budi", email: "budi@yahoo.com", umur: 16 },
+//     { nama: "Citra", email: "citra@gmail.com", umur: 17 },
+//     { nama: "Dina", email: "dina@outlook.com", umur: 18 },
+//     { nama: "Eko", email: "eko@gmail.com", umur: 16 }
+// ];
+
+const emailSiswa = siswa.filter((siswa)=> {
+    return siswa.email.endsWith("@gmail.com")
+});
+ console.log( emailSiswa);
+
+const siswa = {
+    nama: " aNdI pRaTaMa ",
+    kelas: "x ict",
+    email: " ANDI@GMAIL.COM ",
+    username: "  AnDi123  "
+};
+
+const { nama , kelas , email , username} = siswa
+const namaSiswa = nama.trim(). toUpperCase()
+const kelasSiswa = kelas.trim().toUpperCase()
+const emailSiswa = email.trim().toLowerCase()
+const usernameSiswa = username.trim().toLowerCase()
+
+console.log(namaSiswa);
+console.log(kelasSiswa);
+console.log(emailSiswa);
+console.log(usernameSiswa);
+
+const siswa2 = [
+  { nama: "Andi", email: "andi@gmail.com", umur: 17 },
+  { nama: "Budi", email: "budi@yahoo.com", umur: 17 },
+  { nama: "Citra", email: "citra@gmail.com", umur: 17 }
+];
+
+console.log(siswa2
+  .filter(user => user.email.endsWith("@gmail.com"))
+  .map(user => ({ nama: user.nama, email: user.email }))
+);
 

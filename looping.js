@@ -53,26 +53,26 @@
 //         console.log("Nilainya" + nilai[i] + " =  cukup");
 //     }
 
-// let nama = ["Andi" , "Budi" , "citra" , "Doni" , "Eka"];
-// let nilai = [85 , 60 , 90 , 72, 45];
-// for (let i = 0; i < nilai.length; i++)
-//     if (nilai [i] >=80){
-//     console.log(nama[i] + "-"  + nilai[i] + "= LULUS");
-// }else console.log(nama[i] + "-" + nilai[i] + " = TIDAK LULUS");
+let nama = ["Andi" , "Budi" , "citra" , "Doni" , "Eka"];
+let nilai = [85 , 60 , 90 , 72, 45];
+for (let i = 0; i < nilai.length; i++)
+    if (nilai [i] >=80){
+    console.log(nama[i] + "-"  + nilai[i] + "= LULUS");
+}else console.log(nama[i] + "-" + nilai[i] + " = TIDAK LULUS");
 
-// let angka = [12, 7, 20, 15, 8, 3, 14, 9];
-// for (let i = 0; i < angka.length; i++){
-// if(angka [i] % 2 === 0 && angka[i] >=10){
-//     console.log( angka [i]+ "-" +"Genap" + "-"+ ">=10" );
-//  } else if (angka [i]% 2 === 0 % angka [i] < 10){
-//    console.log (angka[i] +"-" + "Genap" + "-" + "< 10");
-//  } else if (angka [i]% 2 === 0 % angka [i] >= 10){
-//    console.log (angka[i] +"-" + "Ganjil" + "-" + "< 10");
-//  }
-//  else{
-//     console.log(angka[i] +"-"+ "Ganjil" + "-"+ "<=10");
-//  }
-// }
+let angka = [12, 7, 20, 15, 8, 3, 14, 9];
+for (let i = 0; i < angka.length; i++){
+if(angka [i] % 2 === 0 && angka[i] >=10){
+    console.log( angka [i]+ "-" +"Genap" + "-"+ ">=10" );
+ } else if (angka [i]% 2 === 0 % angka [i] < 10){
+   console.log (angka[i] +"-" + "Genap" + "-" + "< 10");
+ } else if (angka [i]% 2 === 0 % angka [i] >= 10){
+   console.log (angka[i] +"-" + "Ganjil" + "-" + "< 10");
+ }
+ else{
+    console.log(angka[i] +"-"+ "Ganjil" + "-"+ "<=10");
+ }
+}
 
 // let angka = [12, 7, 20, 15, 8, 3, 14,9];
 // for (let i = 0; i < angka.length; i++){

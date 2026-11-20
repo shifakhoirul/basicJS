@@ -90,9 +90,9 @@ function pangkatbagi(a,b,c){
 //     return harga * jumlah;
 // }
 
-// let total = hitungTotal2(5000, 4);
-// let diskon = 2000;
-// let bayar = total - diskon;
+let total = hitungTotal2(5000, 4);
+let diskon = 2000;
+let bayar = total - diskon;
 
 // console.log("diskon =", diskon);
 // console.log("harga bayar =",  bayar);

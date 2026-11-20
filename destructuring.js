@@ -43,16 +43,7 @@
 // console.log(namaSaja);
 // console.log(nilaiSaja);
 
-const daftarHarga = [
-    { nama : "Asus" , harga : 14000000 , kondisi : "baru"},
-    { nama : "Lenovo" , harga : 16000000 , kondisi : "bekas"},
-    { nama : "Asus" , harga : 22000000 , kondisi : "baru"},
-];
-
-const merkHarga = daftarHarga.map(({nama , harga}) => {
-    return {nama , harga};
-});
-console.log(merkHarga);
+ 
 
 
 // const daftarSiswa = [
@@ -143,15 +134,15 @@ console.log(merkHarga);
 
 // 
 
-const daftarProduk = [
-    { nama: "Laptop", harga: 14000000, stok: 5, kategori: "Elektronik" },
-    { nama: "Mouse", harga: 150000, stok: 0, kategori: "Aksesoris" },
-    { nama: "Keyboard", harga: 500000, stok: 8, kategori: "Aksesoris" },
-    { nama: "Monitor", harga: 2000000, stok: 3, kategori: "Elektronik" }
-];
-const produkElektronik = daftarProduk.filter(({kategori})=> kategori === "Elektronik")
-.filter (({stok})=> stok > 0)
-.map (({nama,harga})=> {
-    return {nama,harga};
-});
-console.log(produkElektronik);
+// const daftarProduk = [
+//     { nama: "Laptop", harga: 14000000, stok: 5, kategori: "Elektronik" },
+//     { nama: "Mouse", harga: 150000, stok: 0, kategori: "Aksesoris" },
+//     { nama: "Keyboard", harga: 500000, stok: 8, kategori: "Aksesoris" },
+//     { nama: "Monitor", harga: 2000000, stok: 3, kategori: "Elektronik" }
+// ];
+// const produkElektronik = daftarProduk.filter(({kategori})=> kategori === "Elektronik")
+// .filter (({stok})=> stok > 0)
+// .map (({nama,harga})=> {
+//     return {nama,harga};
+// });
+// console.log(produkElektronik);
